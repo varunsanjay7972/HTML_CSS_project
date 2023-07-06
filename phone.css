@@ -1,0 +1,75 @@
+#navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    height: auto;
+    flex-direction: column;
+    margin: 8px 10px;
+}
+
+#home p {
+    font-size: 1rem;
+    padding: 0px 4px;
+}
+
+#home::before {
+    content: "";
+    background: url('https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_1280.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.82;
+}
+
+#home h1 {
+    font-size: 1.7rem;
+    margin-top: 100px;
+    margin-bottom: 0%;
+    padding-top: 20px;
+}
+
+#ser {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+
+.service h1 {
+    margin-top: 100px;
+    margin-bottom: 0%;
+    /* font-size: 1.7rem; */
+}
+
+#cl {
+    flex-wrap: wrap;
+}
+
+#cl img {
+    height: 150px;
+    border-radius: 30px;
+}
+
+#clint {
+    height: auto;
+    width: auto;
+}
+
+#clint::before {
+    content: "";
+    background: url('https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_1280.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}

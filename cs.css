@@ -1,0 +1,177 @@
+body {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    padding: 1px;
+    margin: 2px;
+    background-color: black;
+    color: white;
+}
+
+.center {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+}
+
+#logo img {
+    height: 65px;
+    border-radius: 800px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 120px;
+    margin: 18px 20px;
+}
+
+#home::before {
+    content: "";
+    background: url('back2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 530px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.82;
+}
+
+#home h1 {
+    color: white;
+}
+
+#home p {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0px 200px;
+}
+
+
+/* utility css */
+
+.head {
+    font-size: 2.8rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.head2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.btn {
+    border: white solid 1.4px;
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: rgb(151, 126, 104);
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(123, 79, 41);
+}
+
+#ser {
+    display: flex;
+    margin: 12px;
+}
+
+#ser .box {
+    border: solid black 2px;
+    padding: 12px;
+    margin: 3px 4px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: bisque;
+}
+
+#ser .box img {
+    height: 120px;
+    border-radius: 30px;
+}
+
+#ser .box p {
+    font-size: 1.1rem;
+}
+
+#clint {
+    height: 300px;
+}
+
+#clint::before {
+    content: "";
+    background: url('https://cdn.pixabay.com/photo/2016/08/11/08/04/vegetables-1584999_1280.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 335px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#cl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cl img {
+    height: 150px;
+    border-radius: 30px;
+}
+
+.boss {
+    padding: 10px;
+    margin: 10px 30px;
+}
